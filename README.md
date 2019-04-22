@@ -20,7 +20,8 @@ in browser.You will get the following JSON object
 
 6)if the api is working you are good to go for next part
   
-  
+  ![ml-grade-sheet](https://user-images.githubusercontent.com/42136520/56484941-8a31ed80-64ef-11e9-8872-abbba340f674.PNG)
+
   
 7)run the front-end container docker
 
