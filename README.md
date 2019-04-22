@@ -15,7 +15,9 @@
 please use the Mozzila Firefox browser to run this project . Chrome causes security issues which does not run the project as expected
 
 5)run 
-localhost:3000/place-order/ 
+
+http://localhost:3000/place-order
+
 in browser.You will get the following JSON object
 
 6)if the api is working you are good to go for next part
@@ -35,5 +37,7 @@ in browser.You will get the following JSON object
   
   username : pramod@componentsupplier.com
   password : componentsupplier
+
+11)
   
 
