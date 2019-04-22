@@ -30,6 +30,7 @@ in browser.You will get the following JSON object
 
 6)if the api is working you are good to go for next part
   CHECK FOR NETWORK ISSUES IF THERE ARE ERRORS. PLEASE RESTART YOUR CONNECTIONS
+  One of the common errors is MONGO ERROR. It has some issues connecting to database
    
 7)run the front-end container docker
 sudo docker run -d -p 4200:80 jnanesh10/api-access
@@ -47,6 +48,8 @@ sudo docker run -d -p 4200:80 jnanesh10/api-access
   
   username : pramod@componentsupplier.com
   password : componentsupplier
+  
+ 11)Please wait for some time if content does not load 
 
   
 
