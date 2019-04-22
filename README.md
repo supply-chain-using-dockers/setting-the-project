@@ -2,19 +2,26 @@
 
 1)The following are the links to the docker image files
 
+https://cloud.docker.com/repository/docker/jnanesh10/api-access
+
+
+https://cloud.docker.com/repository/docker/jnanesh10/order_vendor
+
 
 2)The following are the links to the project code
+https://github.com/supply-chain-using-dockers/vendor-ui
 
+https://github.com/supply-chain-using-dockers/vendor-api
 
 3)get the images from docker hub 
-
 
 4)check if the api code works
 
 **********IMPORTANT**************
 please use the Mozzila Firefox browser to run this project . Chrome causes security issues which does not run the project as expected
 
-5)run 
+5)run the api image
+sudo docker container run -d -p 3000:3000  <api-access-image>
 
 http://localhost:3000/place-order
 
