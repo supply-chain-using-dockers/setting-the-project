@@ -21,15 +21,18 @@ https://github.com/supply-chain-using-dockers/vendor-api
 please use the Mozzila Firefox browser to run this project . Chrome causes security issues which does not run the project as expected
 
 5)run the api image
-sudo docker container run -d -p 3000:3000  <api-access-image>
+
+sudo docker run -d -p 3000:3000 jnanesh10/api-access
 
 http://localhost:3000/place-order
 
 in browser.You will get the following JSON object
 
 6)if the api is working you are good to go for next part
-  
+  CHECK FOR NETWORK ISSUES IF THERE ARE ERRORS. PLEASE RESTART YOUR CONNECTIONS
+   
 7)run the front-end container docker
+sudo docker run -d -p 4200:80 jnanesh10/api-access
 
 8)go to localhost:4200
 
@@ -45,6 +48,5 @@ in browser.You will get the following JSON object
   username : pramod@componentsupplier.com
   password : componentsupplier
 
-11)
   
 
